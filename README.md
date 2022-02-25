@@ -7,7 +7,7 @@ Due to only one pair of image and ground truth is available, one straightforward
 
 Example  
 
-![Digraph](images_in_readme\preprocess_example.png)
+![Digraph](\images_in_readme\preprocess_example.png)
 
 # Train.py
 This file contains the Module class and training loop. 

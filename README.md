@@ -7,7 +7,7 @@ Due to only one pair of image and ground truth is available, one straightforward
 
 Example  
 
-![Digraph](images_in_readme\preprocess_example.png)
+![Digraph](https://github.com/MissuQAQ/Toy-Example-for-Image-segmentation-by-Pytorch/blob/main/images_in_readme/preprocess_example.png)
 
 # Train.py
 This file contains the Module class and training loop. 
@@ -15,7 +15,7 @@ This file contains the Module class and training loop.
 
 Model Structure
 
-![Digraph](images_in_readme\Digraph.png)
+![Digraph](https://github.com/MissuQAQ/Toy-Example-for-Image-segmentation-by-Pytorch/blob/main/images_in_readme/Digraph.png)
 
 
 
@@ -26,7 +26,7 @@ The strategy is cropping the large predicted RGB image into small sizes and feed
 
 Final Result
 
-![Final_Result](images_in_readme\final_result.png)
+![Final_Result](https://github.com/MissuQAQ/Toy-Example-for-Image-segmentation-by-Pytorch/blob/main/images_in_readme/final_result.png)
 
 # Parameters.py
 This file contain the used parameters for this task 
@@ -50,7 +50,7 @@ This file contain the used parameters for this task
 
    From the comparison between ground truth and predicted mask, we could observe that the roofs with low brightness or dark color is not recognized well. Based on this problem, the transformation of adjusting brightness on data augmentation has been tried. However, the effects are limited. Therefore, more fined augmentation tricks could be applied to overcome this problem or increases the data size.   
 
-   ![Compare](images_in_readme\compare.jpg)
+   ![Compare](https://github.com/MissuQAQ/Toy-Example-for-Image-segmentation-by-Pytorch/blob/main/images_in_readme/compare.jpg)
 
 2. Output all pixels with same value
 
